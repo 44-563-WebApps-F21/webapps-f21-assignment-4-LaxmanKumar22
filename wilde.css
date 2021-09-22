@@ -6,13 +6,13 @@
 .stage-direction{
     font-family: Arial;
     font-size:20px;
-    color:violet;
-    background-color: aqua;
+    color:black;
+    background-color: lightblue;
 }
 .name{
     font-family: Arial;
     font-size:20px;
-    color: palegreen;
+    color: black;
 }
 .stage-direction:hover{
     background-color: blue;
@@ -24,8 +24,6 @@
 .GERALD{
 color: brown;
 }
-
-
 table{
     border: solid;
     padding: 40px 40px 40px;
@@ -46,41 +44,3 @@ table{
     border: 1px mixed black;
     text-align: left;
   }
-
-  tr:nth-child(even){
-    background-color: rgb(234, 243, 247);
-  }
-  .name:hover{
-    text-shadow: 2px 4px 3px rgb(77, 59, 143);
-    color: #a80f6e;
-    filter: blue(3px);
-    border: solid 2px rgb(15, 15, 15);
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: rgb(17, 17, 17);
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
-
