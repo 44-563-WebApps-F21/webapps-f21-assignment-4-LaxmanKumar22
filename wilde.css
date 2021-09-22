@@ -1,0 +1,86 @@
+.speech{ 
+    font-family: Arial;
+    font-size:20px;
+    color: black;
+}
+.stage-direction{
+    font-family: Arial;
+    font-size:20px;
+    color:violet;
+    background-color: aqua;
+}
+.name{
+    font-family: Arial;
+    font-size:20px;
+    color: palegreen;
+}
+.stage-direction:hover{
+    background-color: blue;
+    color: red;
+}
+.LORDILLINGWORTH{
+ color: blueviolet;
+}
+.GERALD{
+color: brown;
+}
+
+
+table{
+    border: solid;
+    padding: 40px 40px 40px;
+    margin: 80px 80px;
+    width: 80%; 
+  }
+  th{
+    color:black;
+    border: 1px solid black;
+    padding: 5px 5px 5px;
+    text-align: left;
+    background-color:rgb(114, 134, 170);
+
+  }
+  td{
+    color: black;
+    padding: 3px 3px 3px;
+    border: 1px mixed black;
+    text-align: left;
+  }
+
+  tr:nth-child(even){
+    background-color: rgb(234, 243, 247);
+  }
+  .name:hover{
+    text-shadow: 2px 4px 3px rgb(77, 59, 143);
+    color: #a80f6e;
+    filter: blue(3px);
+    border: solid 2px rgb(15, 15, 15);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(17, 17, 17);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
