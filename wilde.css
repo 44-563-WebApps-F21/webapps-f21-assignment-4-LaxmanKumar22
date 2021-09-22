@@ -24,6 +24,9 @@
 .GERALD{
 color: brown;
 }
+.MRS_ARBUTHNOT{
+    color: pink;
+}
 table{
     border: solid;
     padding: 40px 40px 40px;
@@ -44,3 +47,12 @@ table{
     border: 1px mixed black;
     text-align: left;
   }
+  tr:nth-child(even){
+    background-color: rgb(58, 139, 173);
+  }
+  .name:hover{
+    text-shadow: 2px 4px 3px rgb(77, 59, 143);
+    color: #a80f6e;
+    filter: blue(3px);
+    border: solid 2px rgb(15, 15, 15);
+}
